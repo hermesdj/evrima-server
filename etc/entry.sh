@@ -12,4 +12,4 @@ fi
 
 cd "${STEAMAPPDIR}"
 
-ls
+./TheIsleServer.sh
