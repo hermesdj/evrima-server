@@ -46,6 +46,8 @@ USER ${USER}
 
 WORKDIR ${HOMEDIR}
 
+COPY config/* ${STEAMAPPDIR}/TheIsle/Saved/Config/LinuxServer/
+
 STOPSIGNAL SIGINT
 
 ENTRYPOINT ["tini", "-g", "/home/steam/tinientry.sh"]
